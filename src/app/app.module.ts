@@ -4,9 +4,9 @@ import { NgModule } from "@angular/core";
 import { WineItemComponent } from "./wines/wine-item/wine-item.component";
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, WineItemComponent],
   imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent, WineItemComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule {}
